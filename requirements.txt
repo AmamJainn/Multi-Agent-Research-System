@@ -1,0 +1,111 @@
+# ==========================
+# Core LangChain
+# ==========================
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# ==========================
+# LLM Providers
+# ==========================
+openai>=1.60.0
+langchain-openai>=0.3.0
+
+groq>=0.11.0
+langchain-groq>=0.2.0
+
+google-generativeai>=0.8.0
+langchain-google-genai>=2.0.0
+
+mistralai>=1.2.0
+
+# Optional: HuggingFace
+transformers>=4.45.0
+huggingface-hub>=0.24.0
+
+# ==========================
+# Search Tools
+# ==========================
+tavily-python>=0.5.0
+
+# ==========================
+# Streamlit UI
+# ==========================
+streamlit>=1.38.0
+
+# ==========================
+# Web Scraping
+# ==========================
+beautifulsoup4>=4.12.3
+requests>=2.32.0
+lxml>=5.3.0
+html5lib>=1.1
+
+# ==========================
+# Data Processing
+# ==========================
+pandas>=2.2.0
+numpy>=2.1.0
+
+# ==========================
+# Tokenization
+# ==========================
+tiktoken>=0.8.0
+
+# ==========================
+# Environment Variables
+# ==========================
+python-dotenv>=1.0.1
+
+# ==========================
+# Async
+# ==========================
+aiohttp>=3.11.0
+
+# ==========================
+# Validation
+# ==========================
+pydantic>=2.10.0
+
+# ==========================
+# Retry
+# ==========================
+tenacity>=9.0.0
+
+# ==========================
+# Fast JSON
+# ==========================
+orjson>=3.10.0
+
+# ==========================
+# Logging
+# ==========================
+rich>=13.9.0
+
+# ==========================
+# Optional Utilities
+# ==========================
+typing-extensions>=4.12.0
+# Vector Database
+faiss-cpu>=1.9.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# PDF Parsing
+pypdf>=5.0.0
+pymupdf>=1.24.0
+
+# DOCX Support
+python-docx>=1.1.2
+
+# Excel
+openpyxl>=3.1.5
+
+# Markdown
+markdown>=3.7
+
+# Text Splitting
+unstructured>=0.16.0
+langgraph>=0.2.0
+langsmith>=0.1.0
